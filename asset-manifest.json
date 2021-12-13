@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/new/static/css/main.b5084ed8.chunk.css",
+    "main.js": "/github.io/new/static/js/main.94cc8cf6.chunk.js",
+    "main.js.map": "/github.io/new/static/js/main.94cc8cf6.chunk.js.map",
+    "runtime-main.js": "/github.io/new/static/js/runtime-main.36276541.js",
+    "runtime-main.js.map": "/github.io/new/static/js/runtime-main.36276541.js.map",
+    "static/js/2.29b9ba57.chunk.js": "/github.io/new/static/js/2.29b9ba57.chunk.js",
+    "static/js/2.29b9ba57.chunk.js.map": "/github.io/new/static/js/2.29b9ba57.chunk.js.map",
+    "index.html": "/github.io/new/index.html",
+    "static/css/main.b5084ed8.chunk.css.map": "/github.io/new/static/css/main.b5084ed8.chunk.css.map",
+    "static/js/2.29b9ba57.chunk.js.LICENSE.txt": "/github.io/new/static/js/2.29b9ba57.chunk.js.LICENSE.txt",
+    "static/media/tests.css": "/github.io/new/static/media/Futura PT.79275407.ttf",
+    "static/media/calc.css": "/github.io/new/static/media/MrDafoe-Regular.7cb484b7.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36276541.js",
+    "static/js/2.29b9ba57.chunk.js",
+    "static/css/main.b5084ed8.chunk.css",
+    "static/js/main.94cc8cf6.chunk.js"
+  ]
+}
