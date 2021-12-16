@@ -60,7 +60,7 @@ function App() {
         console.log('Тема сменена на ' + theme)
     }
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className = 'App'>
                 <div className = 'theme'>
                     <div style = {{background: lightColors[0]}} className = 'select' onClick = {changeTheme1}>
