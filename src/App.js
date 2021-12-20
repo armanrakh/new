@@ -11,7 +11,7 @@ import Tests from './pages/Tests';
 
 import CurPage from './pages/Current.jsx';
 
-import { BrowserRouter, Link, Route, Routes} from 'react-router-dom';
+import { HashRouter, Link, Route, Routes} from 'react-router-dom';
 
 function App() {
     const [darkColors, changeDark] = useState(['linear-gradient(90deg, #3c61c9, #243cc4)', 'linear-gradient(90deg, #243cc4, rgb(41, 26, 173))', 'linear-gradient(90deg, rgb(41, 26, 173), #28057a)', 'linear-gradient(90deg, #3c61c9, #243cc4, rgb(41, 26, 173), #28057a)'])
@@ -60,7 +60,7 @@ function App() {
         console.log('Тема сменена на ' + theme)
     }
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <div className = 'App'>
                 <div className = 'theme'>
                     <div style = {{background: lightColors[0]}} className = 'select' onClick = {changeTheme1}>
@@ -79,7 +79,7 @@ function App() {
                     <Route path = '/tests' element = {<Tests/>}></Route>
                 </Routes>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
